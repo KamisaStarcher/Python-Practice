@@ -1,0 +1,24 @@
+Python Practice CheckList
+
+0.
+Add detailed comments in all following projects[]
+
+1. 
+Create a Guessing Game using a class[Check]
+No Extra Folders Needed
+
+2.
+Make a calculator using a class[Check]
+No Extra Folders Needed
+
+3. 
+Make a 2d platformer using turtle[]
+Extra Folders needed
+
+4.
+Create a simple Gui using tkinter[]
+No Extra Folders Needed
+
+5. 
+Make a application that needs a login[]
+Extra Folders needed
