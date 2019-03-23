@@ -4,6 +4,8 @@ class Player(turtle.Turtle):
     def __init__(self, x, y):
         turtle.Turtle.__init__(self)
         self.penup()
+        self.color = "blue"
+        self.shape = "circle"
         self.x = x
         self.y = y
         self.jump_time = 20

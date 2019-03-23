@@ -9,18 +9,19 @@ class Obstacle(turtle.Turtle):
         self.shape = "sqaure"
         self.x = x
         self.y = y
-        self.dx = 0.5
+        self.dx = -0.5
 
     def move(self):
-        if (self.x-=self.dx) < -Settings.SCREEN_WIDTH:
+        if (self.x-self.dx) < -Settings.SCREEN_WIDTH:
             self.x = Settings.SCREEN_WIDTH
 
         else:
-            self.x -= self.dx
+            self.x += self.dx
 
-    def show():
+    def show(self):
         self.setx(self.x)
         self.sety(self.y)
 
-    def update():
+    def update(self):
         self.show()
+        self.move()
